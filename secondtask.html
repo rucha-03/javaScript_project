@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link href="https://fonts.google.com/specimen/Poppins">
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+   <div  class="container">
+    <div class="timer-display">
+      00 : 00 : 00 : 00 
+    </div>
+    <ul class="laps"></ul>
+    <div class="action">
+        <button id="startTimer" onclick="start()">Start</button>
+        <button id="pauseTimer" onclick="pause()">Pause</button>
+       <button id="resertTimer" onclick="reset()">Reset</button>
+       <button id="restart" onclick="restart()">Restart </button>
+       <button id="lap" onclick="lap()">Lap</button>
+       <button id="resetLap" onclick="resetlap()">Reset Laps</button>
+    </div>
+    
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>
